@@ -24,5 +24,15 @@ Install these packages using pip:
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn nltk
+```
 
-
+## Usage
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/FanmeiWang/AI_Learning_Projects.git
+```
+2. Navigate to the repository folder:
+```bash
+cd AI_Learning_Projects
+```
+3. Open any of the Jupyter notebooks to start exploring the projects.
