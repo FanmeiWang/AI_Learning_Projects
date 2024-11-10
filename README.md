@@ -41,8 +41,6 @@ cd AI_Learning_Projects
 Here's an overview of the mail files and folders in this repository:
 ```
 AI_Learning_Projects/
-├── Data_Loading/                   # Data import and loading module
-│   └── data_loading.ipynb          # Contains code for loading datasets and displaying basic data information
 ├── Data_Cleaning/                  # Data cleaning module
 │   └── data_cleaning.ipynb         # Contains tasks like data cleaning, handling missing values, and data type conversion
 ├── Exploratory_Data_Analysis/      # Exploratory Data Analysis (EDA) module
