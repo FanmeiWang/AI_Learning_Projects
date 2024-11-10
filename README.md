@@ -20,7 +20,9 @@ To run the notebooks in this repository, you will need Python 3 and the followin
 - `seaborn`
 - `nltk` (for NLP tasks)
 
-Install these packages using pip:
+Install these packages using pip: 
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn nltk
+
+
