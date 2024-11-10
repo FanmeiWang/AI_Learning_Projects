@@ -36,3 +36,24 @@ git clone https://github.com/FanmeiWang/AI_Learning_Projects.git
 cd AI_Learning_Projects
 ```
 3. Open any of the Jupyter notebooks to start exploring the projects.
+
+## File Structure
+Here's an overview of the mail files and folders in this repository:
+```
+AI_Learning_Projects/
+├── Data_Loading/                   # Data import and loading module
+│   └── data_loading.ipynb          # Contains code for loading datasets and displaying basic data information
+├── Data_Cleaning/                  # Data cleaning module
+│   └── data_cleaning.ipynb         # Contains tasks like data cleaning, handling missing values, and data type conversion
+├── Exploratory_Data_Analysis/      # Exploratory Data Analysis (EDA) module
+│   └── exploratory_analysis.ipynb  # Plotting charts, analyzing data distributions
+├── Feature_Engineering/            # Feature engineering module
+│   └── feature_engineering.ipynb   # Creating new features, removing irrelevant features
+├── Model_Training/                 # Model training module
+│   └── model_training.ipynb        # Code for data splitting and training models
+├── Model_Evaluation/               # Model evaluation and optimization module
+│   └── model_evaluation.ipynb      # Cross-validation, model performance evaluation, and parameter tuning
+├── README.md                       # Overview of the repository and its contents
+└── requirements.txt                # List of dependencies for running the code environment
+```
+
