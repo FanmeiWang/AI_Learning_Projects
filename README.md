@@ -55,3 +55,28 @@ AI_Learning_Projects/
 └── requirements.txt                # List of dependencies for running the code environment
 ```
 
+---
+
+## Important Note on Intellectual Property
+
+In order to protect the intellectual property associated with this project, all variable names and dataset identifiers have been replaced with generic placeholders (e.g., `VAR1`, `VAR2`, `data.csv`). These changes do not affect the code's logic but remove any proprietary information. The code remains functional and demonstrates the workflow and logic behind typical AI tasks.
+
+## Contents
+
+1. **Data Loading** - Demonstrates how data files are imported.
+2. **Data Cleaning** - Illustrates methods for handling missing data using generic variable names.
+3. **Exploratory Data Analysis** - Provides visualizations and statistical summaries.
+4. **Feature Engineering** - Shows techniques for creating and selecting meaningful features.
+5. **Model Training** - Contains code for training and evaluating machine learning models.
+
+---
+
+## Important Note on Intellectual Property
+
+In order to protect the intellectual property associated with this project, all variable names and dataset identifiers have been replaced with generic placeholders (e.g., `VAR1`, `VAR2`, `data.csv`). These changes do not affect the code's logic but remove any proprietary information. 
+
+---
+
+
+
+
