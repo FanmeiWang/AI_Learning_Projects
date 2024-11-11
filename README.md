@@ -47,10 +47,6 @@ AI_Learning_Projects/
 │   └── exploratory_analysis.ipynb  # Plotting charts, analyzing data distributions
 ├── Feature_Engineering/            # Feature engineering module
 │   └── feature_engineering.ipynb   # Creating new features, removing irrelevant features
-├── Model_Training/                 # Model training module
-│   └── model_training.ipynb        # Code for data splitting and training models
-├── Model_Evaluation/               # Model evaluation and optimization module
-│   └── model_evaluation.ipynb      # Cross-validation, model performance evaluation, and parameter tuning
 ├── README.md                       # Overview of the repository and its contents
 └── requirements.txt                # List of dependencies for running the code environment
 ```
@@ -67,7 +63,6 @@ In order to protect the intellectual property associated with this project, all 
 2. **Data Cleaning** - Illustrates methods for handling missing data using generic variable names.
 3. **Exploratory Data Analysis** - Provides visualizations and statistical summaries.
 4. **Feature Engineering** - Shows techniques for creating and selecting meaningful features.
-5. **Model Training** - Contains code for training and evaluating machine learning models.
 
 ---
 
