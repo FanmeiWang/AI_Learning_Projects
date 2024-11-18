@@ -8,17 +8,17 @@ This repository is a collection of AI-focused projects and exercises that I comp
 
 ## Contents
 1. **Data Preprocessing and Cleaning**: Basic techniques for handling missing data, data normalization, and feature engineering.
-2. **Machine Learning Models**: Implementations of foundational machine learning algorithms with anonymized data.
-3. **Natural Language Processing (NLP)**: Introduction to text data processing and simple NLP models.
+2. **Machine Learning Models**: Implementations of foundational supervised and unsupervised machine learning algorithms. Includes clustering (e.g., K-Means), classification (e.g., Logistic Regression, Decision Tree), and dimensionality reduction (e.g., PCA, LDA)..
 
 ## Installation & Dependencies
 To run the notebooks in this repository, you will need Python 3 and the following packages:
-- `numpy`
-- `pandas`
-- `scikit-learn`
-- `matplotlib`
-- `seaborn`
-- `nltk` (for NLP tasks)
+
+**Core Libraries** <br>
+'numpy' - For numerical computations. <br>
+'pandas' - For data manipulation and analysis. <br>
+'scikit-learn' - For implementing machine learning models, clustering, and dimensionality reduction. <br>
+'matplotlib' - For creating visualizations. <br>
+'seaborn' - For enhanced data visualization. <br>
 
 Install these packages using pip: 
 
@@ -41,14 +41,23 @@ cd AI_Learning_Projects
 Here's an overview of the mail files and folders in this repository:
 ```
 AI_Learning_Projects/
-├── Data_Cleaning/                  # Data cleaning module
-│   └── data_cleaning.ipynb         # Contains tasks like data cleaning, handling missing values, and data type conversion
-├── Exploratory_Data_Analysis/      # Exploratory Data Analysis (EDA) module
-│   └── exploratory_analysis.ipynb  # Plotting charts, analyzing data distributions
-├── Feature_Engineering/            # Feature engineering module
-│   └── feature_engineering.ipynb   # Creating new features, removing irrelevant features
-├── README.md                       # Overview of the repository and its contents
-└── requirements.txt                # List of dependencies for running the code environment
+├── Data_Cleaning/                      # Preprocessing raw data
+│   └── data_cleaning.ipynb             # Includes handling missing values, normalization, and type conversion
+├── Exploratory_Data_Analysis/          # Understanding data structure
+│   └── exploratory_analysis.ipynb      # Visualizations and data distribution analysis
+├── Feature_Engineering/                # Enhancing model input
+│   └── feature_engineering.ipynb       # Creating new features, selecting relevant ones
+├── Supervised_Learning/                # Tasks with labeled data
+│   ├── classification_models.ipynb     # Logistic Regression, Decision Tree, Random Forest, Naive Bayes
+│   ├── lda_analysis.ipynb              # Dimensionality reduction for classification tasks
+│   ├── results_supervised.pdf          # Summary of supervised learning results
+├── Unsupervised_Learning/              # Discovering patterns without labels
+│   ├── kmeans_clustering.ipynb         # K-Means clustering with Manhattan distance
+│   ├── pca_analysis.ipynb              # Principal Component Analysis for dimensionality reduction
+│   ├── results_unsupervised.pdf        # Summary of unsupervised learning results
+├── README.md                           # Overview of the repository
+└── requirements.txt                    # List of dependencies
+
 ```
 
 ---
