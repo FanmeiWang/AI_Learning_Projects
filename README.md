@@ -50,11 +50,9 @@ AI_Learning_Projects/
 ├── Supervised_Learning/                # Tasks with labeled data
 │   ├── classification_models.ipynb     # Logistic Regression, Decision Tree, Random Forest, Naive Bayes
 │   ├── lda_analysis.ipynb              # Dimensionality reduction for classification tasks
-│   ├── results_supervised.pdf          # Summary of supervised learning results
 ├── Unsupervised_Learning/              # Discovering patterns without labels
 │   ├── kmeans_clustering.ipynb         # K-Means clustering with Manhattan distance
 │   ├── pca_analysis.ipynb              # Principal Component Analysis for dimensionality reduction
-│   ├── results_unsupervised.pdf        # Summary of unsupervised learning results
 ├── README.md                           # Overview of the repository
 └── requirements.txt                    # List of dependencies
 
